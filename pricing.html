@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" href="css/reset.css" />
+	<link rel="stylesheet" href="css/global.css" />
+	<link rel="stylesheet" href="css/acuityscheduling-com.css" />
+    <title>Pricing - Acuity Scheduling</title>
+    
+    <style>
+        .acuityscheduling-com-group {
+            padding-bottom: 50px !important; 
+        }
+        .acuityscheduling-com-footer {
+            position: relative !important; 
+            top: auto !important; 
+        }
+        /* СТИЛІ ДЛЯ КНОПКИ ВГОРУ */
+        #scrollTopBtn {
+            display: none; 
+            position: fixed; 
+            bottom: 20px; 
+            right: 30px; 
+            z-index: 99; 
+            border: none; 
+            outline: none; 
+            background-color: #5f93c0;
+            color: white; 
+            cursor: pointer; 
+            padding: 15px; 
+            border-radius: 50%;
+            font-size: 18px;
+            line-height: 0;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            transition: opacity 0.3s;
+        }
+
+        #scrollTopBtn:hover {
+            background-color: #283849;
+        }
+
+        /* Стилі для карток цін */
+        .pricing-grid {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        .price-card {
+            flex: 0 1 300px;
+            text-align: center;
+            background-color: #f8f8f8;
+            padding: 40px 20px;
+            border-radius: 22px; 
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+            font-family: 'Inter', sans-serif;
+        }
+        .price-card.featured {
+            background-color: #e0ebf4;
+            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+        }
+        .price-card h2 { color: #283849; font-size: 1.5em; margin-bottom: 5px; }
+        .price-value { font-size: 3em; font-weight: 700; margin: 15px 0 5px; color: #0e0e0e; }
+        .feature-list { list-style: none; padding: 0; text-align: center; margin-bottom: 30px; }
+        .feature-list li { padding: 8px 0; border-bottom: 1px dashed #ddd; font-size: 0.95em; color: #555; }
+        .cta-button { 
+            display: block; 
+            width: 80%;
+            margin: 0 auto;
+            padding: 12px; 
+            background-color: #283849; 
+            color: white; 
+            text-decoration: none; 
+            border-radius: 12px;
+            font-weight: 500;
+        }
+    </style>
+</head>
+<body>
+
+<div class="acuityscheduling-com">
+    <div class="acuityscheduling-com-col-top" style="padding-bottom: 20px;">
+        <div class="acuityscheduling-com-div-menu">
+            <object data="assets/acuityscheduling-com-link1.svg" class="acuityscheduling-com-link1" type="image/svg+xml"></object>
+            
+            <div class="acuityscheduling-com-list1">
+                <a href="index.html" class="acuityscheduling-com-text-item1">Home</a>
+                <a href="pricing.html" class="acuityscheduling-com-text-item1">Pricing</a>
+                <a href="about.html" class="acuityscheduling-com-text-item2">About</a>
+                <a href="contact.html" class="acuityscheduling-com-text-item3">Contact</a>
+                <button class="acuityscheduling-com-btn acuityscheduling-com-btn-item hover-bright">Try scheduling</button>
+            </div>
+        </div>
+    </div>
+    <div class="acuityscheduling-com-div-frontsite1">
+        <div class="acuityscheduling-com-section1" style="padding: 80px 40px;">
+            <div class="group" style="text-align: center; max-width: 900px; margin: 0 auto; padding: 0;">
+                <h1 class="subtitle2 sub-text-dark" style="margin-bottom: 20px;">
+                    Flexible Plans for Every Business
+                </h1>
+                <p class="text1" style="max-width: 700px; color: #6f6f6f;">
+                    Choose the perfect plan that will grow with you. Start for free today!
+                </p>
+            </div>
+
+            <div class="pricing-grid" style="margin-top: 60px;">
+                <div class="price-card">
+                    <h2>Free</h2>
+                    <p class="price-value">$0<small style="font-size: 0.5em; font-weight: 400;">/mo</small></p>
+                    <p class="text-a" style="margin-bottom: 25px;">Basic features to get you started</p>
+                    <ul class="feature-list">
+                        <li>1 User</li>
+                        <li>Basic Notifications</li>
+                        <li>Limited Features</li>
+                    </ul>
+                    <a href="#" class="cta-button hover-bright">Start for Free</a>
+                </div>
+
+                <div class="price-card featured">
+                    <h2>Professional</h2>
+                    <p class="price-value">$19<small style="font-size: 0.5em; font-weight: 400;">/mo</small></p>
+                    <p class="text-a" style="margin-bottom: 25px; font-weight: bold; color: #333;">Most popular choice</p>
+                    <ul class="feature-list">
+                        <li>5 Users</li>
+                        <li>SMS Reminders</li>
+                        <li>Advanced Analytics</li>
+                    </ul>
+                    <a href="#" class="cta-button hover-bright" style="background-color: #5f93c0;">Select Plan</a>
+                </div>
+
+                <div class="price-card">
+                    <h2>Premium</h2>
+                    <p class="price-value">$49<small style="font-size: 0.5em; font-weight: 400;">/mo</small></p>
+                    <p class="text-a" style="margin-bottom: 25px;">All tools for corporations</p>
+                    <ul class="feature-list">
+                        <li>Unlimited Users</li>
+                        <li>Priority Support</li>
+                        <li>Custom Integrations</li>
+                    </ul>
+                    <a href="#" class="cta-button hover-bright">Request Demo</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="acuityscheduling-com-footer">
+        </div>
+
+    <button onclick="topFunction()" id="scrollTopBtn" title="Go to top">
+        ↑
+    </button>
+    
+    <script>
+        let mybutton = document.getElementById("scrollTopBtn");
+        window.onscroll = function() {scrollFunction()};
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+        }
+
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
+</div>
+</body>
+</html>

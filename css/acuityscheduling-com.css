@@ -1,0 +1,1896 @@
+.acuityscheduling-com {
+	display: flex;
+	flex-direction: column;
+	gap: 16px;
+	letter-spacing: 0px;
+	background-color: #fff;
+	padding-bottom: 37px;
+	--minContent: 1440;
+	--hSizing: FILL;
+	--vSizing: HUG;
+	--pConstraintHorizontal: STRETCH;
+	--pConstraintVertical: MIN;
+}
+
+.acuityscheduling-com-btn {
+	display: flex;
+	justify-content: center;
+	font-size: 13.78px;
+	font-style: normal;
+	letter-spacing: 0px;
+	text-align: center;
+	padding: 12px 25px 12px 24px;
+	border-radius: 12px;
+	--minContent: 144;
+	--hSizing: HUG;
+	--vSizing: HUG;
+	--pConstraintHorizontal: MIN;
+	--pConstraintVertical: CENTER;
+}
+
+.div-feature-area {
+	margin-bottom: 4px;
+	width: 100%;
+	min-width: 0;
+	flex-grow: 1;
+	border-radius: 22px;
+	--minContent: 302;
+	--hSizing: FILL;
+	--vSizing: FILL;
+	--pConstraintHorizontal: STRETCH;
+	--pConstraintVertical: STRETCH;
+}
+
+.image {
+	flex-shrink: 0;
+	border-radius: 22px;
+	--minContent: 295;
+	--hSizing: FILL;
+	--vSizing: FIXED;
+	--pConstraintHorizontal: STRETCH;
+	--pConstraintVertical: MIN;
+}
+
+.text-a {
+	color: #6f6f6f;
+	font-size: 16px;
+	font-family: 'Avenir Next';
+	line-height: 1.4;
+	--minContent: 238;
+	--hSizing: FILL;
+	--vSizing: HUG;
+	--pConstraintHorizontal: STRETCH;
+	--pConstraintVertical: MIN;
+}
+
+
+
+/* div-feature-item-margin */
+
+.div-feature-item-margin {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	gap: 25px;
+	flex-grow: 1;
+	padding-right: 6px;
+	--minContent: 244;
+	--hSizing: FILL;
+	--vSizing: HUG;
+	--pConstraintHorizontal: MIN;
+	--pConstraintVertical: MIN;
+}
+
+.div-feature-item-margin-subtitle {
+	color: #1e1e1e;
+	font-size: 24px;
+	font-family: 'Inter';
+	line-height: 1.2;
+	--minContent: 217;
+	--hSizing: FILL;
+	--vSizing: HUG;
+	--pConstraintHorizontal: STRETCH;
+	--pConstraintVertical: MIN;
+}
+/* end div-feature-item-margin*/
+
+
+.acuityscheduling-com-div-footer-link {
+	max-height: 26px;
+	font-weight: 500;
+	line-height: 1.6;
+	background-color: #fff;
+	--minContent: 176;
+	--hSizing: HUG;
+	--vSizing: HUG;
+	--pConstraintHorizontal: MIN;
+	--pConstraintVertical: MIN;
+}
+
+
+
+/* list */
+
+.list {
+	display: flex;
+	flex-direction: column;
+	gap: 14px;
+	align-self: stretch;
+	padding-right: 5px;
+	--minContent: 176;
+	--hSizing: FILL;
+	--vSizing: HUG;
+	--pConstraintHorizontal: STRETCH;
+	--pConstraintVertical: MIN;
+}
+/* end list*/
+
+
+.text-item-link {
+	--minContent: 171;
+	--hSizing: FILL;
+	--vSizing: HUG;
+	--pConstraintHorizontal: STRETCH;
+	--pConstraintVertical: MIN;
+}
+
+.acuityscheduling-com-col-top {
+	container: acuityscheduling-com-col-top / inline-size;
+	position: relative;
+	margin-right: 10px;
+	display: flex;
+	flex-direction: column;
+	gap: 33px;
+	color: #fff;
+	font-family: 'Inter';
+	font-weight: 400;
+	text-align: center;
+	background-color: #5f93c0;
+	padding: 35px 5px 45px 10px;
+	--minContent: 1440;
+	--hSizing: FILL;
+	--vSizing: HUG;
+	--pConstraintHorizontal: STRETCH;
+    overflow: hidden; 
+	--pConstraintVertical: MIN;
+}
+
+.acuityscheduling-com-div-hero1 {
+	/* FIX: Збільшуємо відступ зверху, щоб звільнити місце для кнопки Hero-блоку */
+	position: absolute; 
+    top: 450px; 
+    left: 20px; 
+    right: 20px; 
+	height: 224px;
+	display: flex;
+	gap: 20px;
+	padding-right: 20px;
+	--minContent: 1400;
+	--hSizing: FILL;
+	--vSizing: FIXED;
+	--pConstraintHorizontal: STRETCH;
+	--pConstraintVertical: MIN;
+}
+
+.acuityscheduling-com-div-hero-block-img {
+	width: 100%;
+	min-width: 0;
+	flex-grow: 1;
+	--pConstraintHorizontal: STRETCH;
+	--pConstraintVertical: STRETCH;
+}
+
+.acuityscheduling-com-div-menu {
+	container: acuityscheduling-com-div-menu / inline-size;
+	margin-left: 15px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	color: #000;
+	font-size: 14px;
+	line-height: 1.34;
+	text-align: left;
+	background-color: #fff;
+	padding: 19px 20px 18px 40px;
+	border-radius: 22px;
+	--minContent: 624;
+	--hSizing: FILL;
+	--vSizing: HUG;
+	--pConstraintHorizontal: STRETCH;
+	--pConstraintVertical: MIN;
+}
+
+.acuityscheduling-com-link1 {
+	width: 168px; height: 26px;
+	flex-shrink: 0;
+	--minContent: 168;
+	--hSizing: FIXED;
+	--vSizing: FIXED;
+	--pConstraintHorizontal: MIN;
+	--pConstraintVertical: CENTER;
+}
+
+.acuityscheduling-com-list1 {
+	display: flex;
+	align-items: center;
+	gap: 39px;
+	--minContent: 381;
+	--hSizing: HUG;
+	--vSizing: HUG;
+	--pConstraintHorizontal: MIN;
+	--pConstraintVertical: CENTER;
+}
+
+.acuityscheduling-com-text-item1 {
+	max-height: 19px;
+	--minContent: 47;
+	--hSizing: HUG;
+	--vSizing: HUG;
+	--pConstraintHorizontal: MIN;
+	--pConstraintVertical: CENTER;
+}
+
+.acuityscheduling-com-text-item2 {
+	max-height: 19px;
+	--minContent: 31;
+	--hSizing: HUG;
+	--vSizing: HUG;
+	--pConstraintHorizontal: MIN;
+	--pConstraintVertical: CENTER;
+}
+
+.acuityscheduling-com-text-item3 {
+	margin-left: 1px;
+	max-height: 19px;
+	--minContent: 42;
+	--hSizing: HUG;
+	--vSizing: HUG;
+	--pConstraintHorizontal: MIN;
+	--pConstraintVertical: CENTER;
+}
+
+.acuityscheduling-com-btn-item {
+	color: #fff;
+	line-height: 1.361;
+	background-color: #283849;
+}
+
+.acuityscheduling-com-div-hero7 {
+	/* FIX: Зменшуємо margin, щоб заголовок був ширшим */
+	margin-left: 200px; 
+    margin-right: 200px; 
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+	--minContent: 1415;
+	--hSizing: FILL;
+	--vSizing: HUG;
+	--pConstraintHorizontal: STRETCH;
+	--pConstraintVertical: MIN;
+}
+
+.acuityscheduling-com-subtitle1 {
+	font-size: 37.19px;
+	font-weight: 500;
+	line-height: 1.291;
+	--minContent: 572;
+	--hSizing: FILL;
+	--vSizing: HUG;
+	--pConstraintHorizontal: STRETCH;
+	--pConstraintVertical: MIN;
+}
+
+.acuityscheduling-com-text-p-hero {
+	--minContent: 572;
+	--hSizing: FILL;
+	--vSizing: HUG;
+	--pConstraintHorizontal: STRETCH;
+	--pConstraintVertical: MIN;
+}
+
+.acuityscheduling-com-div-hero8 {
+	margin-top: 17px;
+	height: 72px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 12px;
+	flex-shrink: 0;
+	align-self: center;
+	z-index: 10; 
+	position: relative; 
+	--minContent: 144;
+	--hSizing: HUG;
+	--vSizing: FIXED;
+	--pConstraintHorizontal: CENTER;
+	--pConstraintVertical: MIN;
+}
+
+.acuityscheduling-com-btn-link {
+	/* FIX: Робимо кнопку темною з білим текстом, для кращого контрасту */
+	color: #fff; 
+	line-height: normal;
+	background-color: #283849; 
+}
+
+.acuityscheduling-com-text-p1 {
+	max-height: 19px;
+	font-size: 12px;
+	line-height: 1.6;
+	color: #fff; /* FIX: Робимо текст під кнопкою білим */
+	--minContent: 144;
+	--hSizing: HUG;
+	--vSizing: HUG;
+	--pConstraintHorizontal: CENTER;
+	--pConstraintVertical: CENTER;
+}
+
+.acuityscheduling-com-btn-margin {
+	margin-top: 279px;
+	display: flex;
+	align-items: center;
+	gap: 1px;
+	align-self: start;
+	font-size: 16px;
+	font-family: 'Avenir Next';
+	line-height: 1.15;
+	--minContent: 137;
+	--hSizing: HUG;
+	--vSizing: HUG;
+	--pConstraintHorizontal: MIN;
+	--pConstraintVertical: MIN;
+}
+
+.acuityscheduling-com-img {
+	width: 30px; height: 22px;
+	flex-shrink: 0;
+	--minContent: 30;
+	--hSizing: FIXED;
+	--vSizing: FIXED;
+	--pConstraintHorizontal: MIN;
+	--pConstraintVertical: CENTER;
+}
+
+.acuityscheduling-com-text-span {
+	max-height: 18px;
+	--minContent: 106;
+	--hSizing: HUG;
+	--vSizing: HUG;
+	--pConstraintHorizontal: MIN;
+	--pConstraintVertical: CENTER;
+}
+
+.acuityscheduling-com-div-frontsite1 {
+	display: flex;
+	flex-direction: column;
+	text-align: left;
+	--minContent: 1440;
+	--hSizing: FILL;
+	--vSizing: HUG;
+	--pConstraintHorizontal: STRETCH;
+	--pConstraintVertical: MIN;
+}
+
+.acuityscheduling-com-section1 {
+	container: acuityscheduling-com-section1 / inline-size;
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	color: #222;
+	font-family: 'Inter';
+	background-color: #fff;
+	padding: 64px 256px 84px 256px;
+	--minContent: 1440;
+	--hSizing: FILL;
+	--vSizing: HUG;
+	--pConstraintHorizontal: STRETCH;
+	--pConstraintVertical: MIN;
+}
+
+.card-div-feature1 {
+	flex-shrink: 0;
+	--minContent: 766;
+	--hSizing: FILL;
+	--vSizing: FIXED;
+	--pConstraintHorizontal: STRETCH;
+	--pConstraintVertical: MIN;
+}
+
+.card-div-feature-area1 {
+	width: 100%;
+	gap: 7px;
+	flex-grow: 1;
+	padding-top: 64px;
+	padding-bottom: 167px;
+	--minContent: 464;
+	--hSizing: FILL;
+	--vSizing: FILL;
+	--pConstraintHorizontal: STRETCH;
+	--pConstraintVertical: STRETCH;
+}
+
+.card-div-feature-subtitle1 {
+	width: 100%;
+	max-width: 336px;
+	font-size: 22.69px;
+	font-weight: 500;
+	line-height: 1.058;
+	--minContent: 336;
+	--hSizing: FILL;
+	--vSizing: HUG;
+	--pConstraintHorizontal: CENTER;
+	--pConstraintVertical: MIN;
+}
+
+.card-div-feature-text1 {
+	width: 100%;
+	max-width: 336px;
+	--minContent: 336;
+	--hSizing: FILL;
+	--vSizing: HUG;
+	--pConstraintHorizontal: CENTER;
+	--pConstraintVertical: MIN;
+}
+
+.acuityscheduling-com-div-feature1 {
+	display: flex;
+	align-items: flex-start;
+	gap: 20px;
+	--minContent: 928;
+	--hSizing: FILL;
+	--vSizing: HUG;
+	--pConstraintHorizontal: STRETCH;
+	--pConstraintVertical: MIN;
+}
+
+.card-div-feature2 {
+	gap: 33px;
+	flex-grow: 1;
+	padding-bottom: 4px;
+	--minContent: 454;
+	--hSizing: FILL;
+	--vSizing: FIXED;
+	--pConstraintHorizontal: STRETCH;
+	--pConstraintVertical: MIN;
+}
+
+.card-div-feature-area3 {
+	gap: 7px;
+	--minContent: 454;
+	--hSizing: FILL;
+	--vSizing: HUG;
+	--pConstraintHorizontal: STRETCH;
+	--pConstraintVertical: MIN;
+}
+
+.card-div-feature-subtitle2 {
+	width: 100%;
+	max-width: 326px;
+	--minContent: 326;
+	--hSizing: FILL;
+	--vSizing: HUG;
+	--pConstraintHorizontal: CENTER;
+	--pConstraintVertical: MIN;
+}
+
+.card-div-feature-text2 {
+	width: 100%;
+	max-width: 326px;
+	font-size: 13.89px;
+	font-weight: 400;
+	line-height: 1.814;
+	--minContent: 326;
+	--hSizing: FILL;
+	--vSizing: HUG;
+	--pConstraintHorizontal: CENTER;
+	--pConstraintVertical: MIN;
+}
+
+.card-div-feature3 {
+	gap: 33px;
+	flex-grow: 1;
+	padding-bottom: 29px;
+	--minContent: 454;
+	--hSizing: FILL;
+	--vSizing: FIXED;
+	--pConstraintHorizontal: STRETCH;
+	--pConstraintVertical: MIN;
+}
+
+.card-div-feature-area4 {
+	gap: 7px;
+	--minContent: 454;
+	--hSizing: FILL;
+	--vSizing: HUG;
+	--pConstraintHorizontal: STRETCH;
+	--pConstraintVertical: MIN;
+}
+
+.card-div-feature-subtitle3 {
+	width: 100%;
+	max-width: 326px;
+	font-size: 22.31px;
+	font-weight: 500;
+	line-height: 1.076;
+	--minContent: 326;
+	--hSizing: FILL;
+	--vSizing: HUG;
+	--pConstraintHorizontal: CENTER;
+	--pConstraintVertical: MIN;
+}
+
+.card-div-feature-text3 {
+	width: 100%;
+	max-width: 326px;
+	--minContent: 326;
+	--hSizing: FILL;
+	--vSizing: HUG;
+	--pConstraintHorizontal: CENTER;
+	--pConstraintVertical: MIN;
+}
+
+.card-div-feature4 {
+	flex-shrink: 0;
+	--minContent: 766;
+	--hSizing: FILL;
+	--vSizing: FIXED;
+	--pConstraintHorizontal: STRETCH;
+	--pConstraintVertical: MIN;
+}
+
+.card-div-feature-area5 {
+	width: 100%;
+	gap: 7px;
+	flex-grow: 1;
+	padding-top: 64px;
+	padding-bottom: 167px;
+	--minContent: 464;
+	--hSizing: FILL;
+	--vSizing: FILL;
+	--pConstraintHorizontal: STRETCH;
+	--pConstraintVertical: STRETCH;
+}
+
+.card-div-feature-subtitle4 {
+	width: 100%;
+	max-width: 336px;
+	--minContent: 336;
+	--hSizing: FILL;
+	--vSizing: HUG;
+	--pConstraintHorizontal: CENTER;
+	--pConstraintVertical: MIN;
+}
+
+.card-div-feature-text4 {
+	width: 100%;
+	max-width: 336px;
+	--minContent: 336;
+	--hSizing: FILL;
+	--vSizing: HUG;
+	--pConstraintHorizontal: CENTER;
+	--pConstraintVertical: MIN;
+}
+
+.acuityscheduling-com-group {
+	container: acuityscheduling-com-group / inline-size;
+	position: relative;
+	margin-top: -80px;
+	background-color: #fff;
+	padding: 200px 361px 3643px 361px;
+	--minContent: 1440;
+	--hSizing: FILL;
+	--vSizing: HUG;
+	--pConstraintHorizontal: STRETCH;
+}
+
+.acuityscheduling-com-div-calendar1 {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 23px;
+	color: #000;
+	font-family: 'Inter';
+	text-align: center;
+	padding: 0 73px;
+	--minContent: 718;
+	--hSizing: FILL;
+	--vSizing: HUG;
+	--pConstraintHorizontal: STRETCH;
+	--pConstraintVertical: CENTER;
+}
+
+.acuityscheduling-com-subtitle2 {
+	width: 100%;
+	max-width: 572px;
+	--minContent: 572;
+	--hSizing: FILL;
+	--vSizing: HUG;
+	--pConstraintHorizontal: CENTER;
+	--pConstraintVertical: MIN;
+}
+
+.acuityscheduling-com-text-p2 {
+	width: 100%;
+	max-width: 572px;
+	--minContent: 572;
+	--hSizing: FILL;
+	--vSizing: HUG;
+	--pConstraintHorizontal: CENTER;
+	--pConstraintVertical: MIN;
+}
+
+.acuityscheduling-com-div-calendar2 {
+	position: absolute; top: 480px; left: 25%; 
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+	overflow: hidden;
+	--minContent: 467;
+	--hSizing: FILL;
+	--vSizing: HUG;
+	--pConstraintHorizontal: SCALE;
+	--pConstraintVertical: MIN;
+}
+
+.acuityscheduling-com-webp {
+	flex-shrink: 0;
+	--pConstraintHorizontal: STRETCH;
+	--pConstraintVertical: MIN;
+}
+
+.acuityscheduling-com-salon-emmeline {
+	margin-bottom: -552px;
+}
+
+.acuityscheduling-com-section2 {
+	container: acuityscheduling-com-section2 / inline-size;
+	position: absolute; top: 1032px; left: 0; right: 0; 
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 29px;
+	background-color: #fff;
+	padding: 80px 79px 80px 80px;
+	--minContent: 1440;
+	--hSizing: FILL;
+	--vSizing: HUG;
+	--pConstraintHorizontal: STRETCH;
+	--pConstraintVertical: MIN;
+}
+
+.acuityscheduling-com-div-adapt1 {
+	container: acuityscheduling-com-div-adapt1 / inline-size;
+	width: 100%;
+	max-width: 1411px;
+	display: flex;
+	flex-direction: column;
+	gap: 22px;
+	--minContent: 1281;
+	--hSizing: FILL;
+	--vSizing: HUG;
+	--pConstraintHorizontal: CENTER;
+	--pConstraintVertical: MIN;
+}
+
+.acuityscheduling-com-div-adapt2 {
+	display: flex;
+	align-items: center;
+	color: #1e1e1e;
+	font-family: 'Inter';
+	padding: 0 152px 39px 60px;
+	--minContent: 1281;
+	--hSizing: FILL;
+	--vSizing: HUG;
+	--pConstraintHorizontal: STRETCH;
+	--pConstraintVertical: MIN;
+}
+
+.acuityscheduling-com-div-adapt3 {
+	margin-top: -1px;
+	width: 100%;
+	max-width: 581px;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	flex-shrink: 0;
+	font-weight: 500;
+	--minContent: 581;
+	--hSizing: FIXED;
+	--vSizing: HUG;
+	--pConstraintHorizontal: CENTER;
+	--pConstraintVertical: CENTER;
+}
+
+.acuityscheduling-com-title {
+	align-self: stretch;
+	font-size: 38.28px;
+	line-height: 1.254;
+	--minContent: 581;
+	--hSizing: FILL;
+	--vSizing: HUG;
+	--pConstraintHorizontal: STRETCH;
+	--pConstraintVertical: MIN;
+}
+
+.acuityscheduling-com-subtitle3 {
+	width: 100%;
+	max-width: 581px;
+	font-size: 37.03px;
+	line-height: 1.296;
+	--minContent: 581;
+	--hSizing: FILL;
+	--vSizing: HUG;
+	--pConstraintHorizontal: MIN;
+	--pConstraintVertical: MIN;
+}
+
+.acuityscheduling-com-subtitle4 {
+	margin-bottom: -14px;
+	width: 100%;
+	max-width: 581px;
+	--minContent: 581;
+	--hSizing: FILL;
+	--vSizing: HUG;
+	--pConstraintHorizontal: MIN;
+	--pConstraintVertical: MIN;
+}
+
+.acuityscheduling-com-text-div1 {
+	margin-top: 92px;
+	max-width: 518px;
+	flex-grow: 1;
+	font-size: 15.75px;
+	font-weight: 400;
+	line-height: 1.219;
+	--minContent: 489;
+	--hSizing: FILL;
+	--vSizing: HUG;
+	--pConstraintHorizontal: CENTER;
+	--pConstraintVertical: CENTER;
+}
+
+.acuityscheduling-com-div-site1 {
+	margin-left: 1124px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	color: #5a5a5a;
+	font-size: 17.72px;
+	font-family: 'Avenir Next';
+	font-weight: 400;
+	line-height: 1.016;
+	--minContent: 1242;
+	--hSizing: FILL;
+	--vSizing: HUG;
+	--pConstraintHorizontal: STRETCH;
+	--pConstraintVertical: MIN;
+}
+
+.acuityscheduling-com-text-div2 {
+	--minContent: 57;
+	--hSizing: HUG;
+	--vSizing: HUG;
+	--pConstraintHorizontal: MIN;
+	--pConstraintVertical: CENTER;
+}
+
+.acuityscheduling-com-div-site2 {
+	width: 60px; height: 18px;
+	flex-shrink: 0;
+	--minContent: 60;
+	--hSizing: FIXED;
+	--vSizing: FIXED;
+	--pConstraintHorizontal: MIN;
+	--pConstraintVertical: CENTER;
+}
+
+.acuityscheduling-com-div-example {
+	/* FIX: Змінюємо висоту на auto, щоб текст під картками не обрізався */
+	width: calc(100% - 0px); 
+    height: auto; 
+	max-width: 1411px;
+	display: flex;
+	flex-shrink: 0;
+	color: #222;
+	font-family: 'Inter';
+	font-weight: 400;
+	overflow: hidden;
+	--minContent: 1281;
+	--hSizing: FILL;
+	--vSizing: HUG; /* Змінюємо FIXED на HUG */
+	--pConstraintHorizontal: CENTER;
+	--pConstraintVertical: CENTER;
+}
+
+
+
+/* div-example-site-a */
+
+.div-example-site-a {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 20px;
+	flex-grow: 1;
+	font-size: 16px; 
+	line-height: 1.209;
+	padding-bottom: 30px; 
+	--minContent: 370;
+	--hSizing: FILL;
+	--vSizing: FILL;
+	--pConstraintHorizontal: MIN;
+	--pConstraintVertical: STRETCH;
+}
+
+.div-example-site-load-igroup1 {
+	margin-right: 20px;
+	flex-shrink: 0;
+	align-self: stretch;
+	--minContent: 248;
+	--hSizing: FILL;
+	--vSizing: FIXED;
+	--pConstraintHorizontal: STRETCH;
+	--pConstraintVertical: MIN;
+}
+
+.div-example-site-text1 {
+	--minContent: 370;
+	--hSizing: HUG;
+	--vSizing: HUG;
+	--pConstraintHorizontal: MIN;
+	--pConstraintVertical: MIN;
+    line-height: 1.4; 
+}
+/* end div-example-site-a*/
+
+
+
+
+/* div-example-site-b */
+
+.div-example-site-b {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 20px;
+	flex-grow: 1;
+	font-size: 16px;
+	line-height: 1.2;
+	padding-bottom: 30px; 
+	--minContent: 370;
+	--hSizing: FILL;
+	--vSizing: FILL;
+	--pConstraintHorizontal: MIN;
+	--pConstraintVertical: STRETCH;
+}
+
+.div-example-site-load-igroup2 {
+	margin-right: 20px;
+	flex-shrink: 0;
+	align-self: stretch;
+	--minContent: 248;
+	--hSizing: FILL;
+	--vSizing: FIXED;
+	--pConstraintHorizontal: STRETCH;
+	--pConstraintVertical: MIN;
+}
+
+.div-example-site-text2 {
+	--minContent: 370;
+	--hSizing: HUG;
+	--vSizing: HUG;
+	--pConstraintHorizontal: MIN;
+	--pConstraintVertical: MIN;
+    line-height: 1.4; 
+}
+/* end div-example-site-b*/
+
+
+.div-example-site4 {
+	margin-right: -199px;
+}
+
+.acuityscheduling-com-section3 {
+	container: acuityscheduling-com-section3 / inline-size;
+	position: absolute; top: 1726px; left: 0; right: 0; 
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 63px;
+	background-color: #fff;
+	padding: 120px 24px 98px 24px;
+	--minContent: 1212;
+	--hSizing: FILL;
+	--vSizing: HUG;
+	--pConstraintHorizontal: STRETCH;
+	--pConstraintVertical: MIN;
+}
+
+.acuityscheduling-com-div-container1 {
+	width: 100%;
+	max-width: 1164px;
+	display: flex;
+	align-items: flex-end;
+	justify-content: space-between;
+	padding-right: 71px;
+	--minContent: 755;
+	--hSizing: FIXED;
+	--vSizing: HUG;
+	--pConstraintHorizontal: CENTER;
+	--pConstraintVertical: MIN;
+}
+
+.acuityscheduling-com-subtitle5 {
+	max-width: 400px;
+	color: #0e0e0e;
+	--minContent: 291;
+	--hSizing: HUG;
+	--vSizing: HUG;
+	--pConstraintHorizontal: MIN;
+	--pConstraintVertical: MAX;
+}
+
+.acuityscheduling-com-text-p3 {
+	max-width: 464px;
+	color: #1e1e1e;
+	font-size: 16px;
+	font-family: 'Avenir Next';
+	font-weight: 400;
+	line-height: 1.6;
+	--minContent: 393;
+	--hSizing: HUG;
+	--vSizing: HUG;
+	--pConstraintHorizontal: MIN;
+	--pConstraintVertical: MAX;
+}
+
+.acuityscheduling-com-div-container2 {
+	container: acuityscheduling-com-div-container2 / inline-size;
+	width: 100%;
+	max-width: 1164px;
+	display: flex;
+	flex-direction: column;
+	gap: 48px;
+	font-weight: 400;
+	padding-right: 20px;
+	--minContent: 1164;
+	--hSizing: FIXED;
+	--vSizing: HUG;
+	--pConstraintHorizontal: CENTER;
+	--pConstraintVertical: MIN;
+}
+
+.acuityscheduling-com-row-top {
+	display: flex;
+	align-items: flex-start;
+	gap: 55px;
+	--minContent: 1144;
+	--hSizing: FILL;
+	--vSizing: HUG;
+	--pConstraintHorizontal: STRETCH;
+}
+
+.acuityscheduling-com-div-feature2 {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	gap: 25px;
+	flex-grow: 1;
+	padding-right: 6px;
+	--minContent: 244;
+	--hSizing: FILL;
+	--vSizing: HUG;
+	--pConstraintHorizontal: MIN;
+	--pConstraintVertical: MIN;
+}
+
+.acuityscheduling-com-text1 {
+	color: #1e1e1e;
+	font-size: 21px;
+	font-family: 'Inter';
+	line-height: 1.371;
+	--minContent: 238;
+	--hSizing: FILL;
+	--vSizing: HUG;
+	--pConstraintHorizontal: STRETCH;
+	--pConstraintVertical: MIN;
+}
+
+.acuityscheduling-com-div-feature3 {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	gap: 25px;
+	flex-grow: 1;
+	padding-right: 12px;
+	--minContent: 245;
+	--hSizing: FILL;
+	--vSizing: HUG;
+	--pConstraintHorizontal: MIN;
+	--pConstraintVertical: MIN;
+}
+
+.acuityscheduling-com-div-feature4 {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	gap: 25px;
+	flex-grow: 1;
+	padding-right: 34px;
+	--minContent: 244;
+	--hSizing: FILL;
+	--vSizing: HUG;
+	--pConstraintHorizontal: MIN;
+	--pConstraintVertical: MIN;
+}
+
+.acuityscheduling-com-text5 {
+	color: #1e1e1e;
+	font-size: 23.44px;
+	font-family: 'Inter';
+	line-height: 1.229;
+	--minContent: 210;
+	--hSizing: FILL;
+	--vSizing: HUG;
+	--pConstraintHorizontal: STRETCH;
+	--pConstraintVertical: MIN;
+}
+
+.acuityscheduling-com-row-bottom {
+	display: flex;
+	align-items: flex-start;
+	gap: 55px;
+	--minContent: 1144;
+	--hSizing: FILL;
+	--vSizing: HUG;
+	--pConstraintHorizontal: STRETCH;
+}
+
+.acuityscheduling-com-section4 {
+	position: absolute; top: 2483px; left: 0; right: 0; 
+	color: #000;
+	font-size: 17.44px;
+	font-family: 'Inter';
+	font-weight: 400;
+	line-height: 1.239;
+	text-align: center;
+	--minContent: 1440;
+	--hSizing: FILL;
+	--vSizing: HUG;
+	--pConstraintHorizontal: STRETCH;
+	--pConstraintVertical: MIN;
+}
+
+.acuityscheduling-com-section5 {
+	container: acuityscheduling-com-section5 / inline-size;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 64px;
+	background-color: #e0ebf4;
+	padding: 64px 20px;
+	border-radius: 22px;
+	--minContent: 1360;
+	--hSizing: FILL;
+	--vSizing: HUG;
+	--pConstraintHorizontal: STRETCH;
+	--pConstraintVertical: MIN;
+}
+
+.acuityscheduling-com-text-heading {
+	width: 100%;
+	max-width: 1320px;
+	max-height: 22px;
+	--minContent: 1320;
+	--hSizing: FILL;
+	--vSizing: HUG;
+	--pConstraintHorizontal: MIN;
+	--pConstraintVertical: MIN;
+}
+
+.acuityscheduling-com-list2 {
+	height: 164px;
+	display: flex;
+	gap: 24px;
+	flex-shrink: 0;
+	align-self: stretch;
+	padding: 12px 70px;
+	--minContent: 1131;
+	--hSizing: FILL;
+	--vSizing: FIXED;
+	--pConstraintHorizontal: STRETCH;
+	--pConstraintVertical: MIN;
+}
+
+
+
+/* item-margin */
+
+.item-margin {
+	width: 100%;
+	flex-grow: 1;
+	border-radius: 100px;
+	--minContent: 172;
+	--hSizing: FILL;
+	--vSizing: FILL;
+	--pConstraintHorizontal: STRETCH;
+	--pConstraintVertical: STRETCH;
+}
+
+.item-margin-clip-path {
+	--minContent: 85;
+	--hSizing: FILL;
+	--vSizing: FIXED;
+	--pConstraintHorizontal: STRETCH;
+	--pConstraintVertical: MIN;
+}
+/* end item-margin*/
+
+
+.acuityscheduling-com-item-margin1 {
+	width: 100%;
+	flex-grow: 1;
+	background-color: #635bff;
+	padding: 48px 56px;
+	border-radius: 100px;
+	--minContent: 217;
+	--hSizing: FILL;
+	--vSizing: FILL;
+	--pConstraintHorizontal: STRETCH;
+	--pConstraintVertical: STRETCH;
+}
+
+.acuityscheduling-com-logo-stripe {
+	margin: 0 auto;
+	width: 105px; height: 45px;
+	--minContent: 105;
+	--hSizing: FIXED;
+	--vSizing: FIXED;
+	--pConstraintHorizontal: CENTER;
+	--pConstraintVertical: CENTER;
+}
+
+.acuityscheduling-com-item-margin2 {
+	width: 100%;
+	flex-grow: 1;
+	background-color: #c9e8f5;
+	padding: 52px 38px;
+	border-radius: 100px;
+	--minContent: 167;
+	--hSizing: FILL;
+	--vSizing: FILL;
+	--pConstraintHorizontal: STRETCH;
+	--pConstraintVertical: STRETCH;
+}
+
+.acuityscheduling-com-logo-square {
+	margin: 0 auto;
+	height: 36px;
+	max-width: 217px;
+	--minContent: 92;
+	--hSizing: FILL;
+	--vSizing: FIXED;
+	--pConstraintHorizontal: CENTER;
+	--pConstraintVertical: CENTER;
+}
+
+.item-margin1 {
+	background-color: #201515;
+	padding: 49px 44px 57px 44px;
+}
+
+.item-margin2 {
+	background-color: #ffd140;
+	padding: 53px 42px;
+}
+
+.item-margin3 {
+	background-color: #fff;
+	padding: 47px 41px;
+}
+
+.acuityscheduling-com-section6 {
+	container: acuityscheduling-com-section6 / inline-size;
+	position: absolute; top: 2900px; left: 0; right: 0; 
+	color: #fff;
+	font-family: 'Inter';
+	font-weight: 400;
+	--minContent: 1440;
+	--hSizing: FILL;
+	--vSizing: HUG;
+	--pConstraintHorizontal: STRETCH;
+	--pConstraintVertical: MIN;
+}
+
+.acuityscheduling-com-div-support1 {
+    display: flex;
+    align-items: right;
+    gap: 700px; 
+    background-color: #283849;
+    padding: 60px 80px 60px 80px; 
+	border-radius: 22px;
+	--minContent: 1360;
+	--hSizing: FILL;
+	--vSizing: HUG;
+	--pConstraintHorizontal: STRETCH;
+	--pConstraintVertical: MIN;
+}
+
+.acuityscheduling-com-div-support2 {
+	margin-top: 0; 
+	width: 100%; 
+	max-width: 420px;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start; 
+	flex-shrink: 0;
+	gap: 23px;
+	--minContent: 420;
+	--hSizing: FIXED;
+	--vSizing: HUG;
+	--pConstraintHorizontal: MIN;
+	--pConstraintVertical: CENTER;
+}
+
+.acuityscheduling-com-subtitle6 {
+	/* FIX: Прибираємо зайві margin-left/right та центрировання */
+	margin-left: 0; 
+    margin-right: 0; 
+	width: 100%; 
+	max-width: 420px;
+	--minContent: 508;
+	--hSizing: FILL;
+	--vSizing: HUG;
+    --pConstraintHorizontal: MIN; /* Вирівнюємо зліва */
+	--pConstraintVertical: MIN;
+}
+
+.acuityscheduling-com-text-p4 {
+	/* FIX: Прибираємо зайві margin-left/right та центрировання */
+	margin-left: 0; 
+    margin-right: 0; 
+	width: 100%;
+	max-width: 624px;
+	--minContent: 508;
+	--hSizing: FILL;
+	--vSizing: HUG;
+    --pConstraintHorizontal: MIN; /* Вирівнюємо зліва */
+	--pConstraintVertical: MIN;
+}
+
+.acuityscheduling-com-div-support3 {
+	margin-top: 25px;
+	display: flex;
+	flex-direction: column;
+	gap: 24px;
+	align-self: stretch;
+	--minContent: 420;
+	--hSizing: FILL;
+	--vSizing: HUG;
+	--pConstraintHorizontal: STRETCH;
+	--pConstraintVertical: MIN;
+}
+
+.acuityscheduling-com-link-margin1 {
+	--minContent: 420;
+	--hSizing: FILL;
+	--vSizing: HUG;
+	--pConstraintHorizontal: STRETCH;
+	--pConstraintVertical: MIN;
+}
+
+.acuityscheduling-com-link-margin2 {
+	--minContent: 420;
+	--hSizing: FILL;
+	--vSizing: HUG;
+	--pConstraintHorizontal: STRETCH;
+	--pConstraintVertical: MIN;
+}
+
+.acuityscheduling-com-link-margin3 {
+	--minContent: 420;
+	--hSizing: FILL;
+	--vSizing: HUG;
+	--pConstraintHorizontal: STRETCH;
+	--pConstraintVertical: MIN;
+}
+
+.acuityscheduling-com-link-blog {
+	--minContent: 420;
+	--hSizing: FILL;
+	--vSizing: HUG;
+	--pConstraintHorizontal: STRETCH;
+	--pConstraintVertical: MIN;
+}
+
+.acuityscheduling-com-div-support4 {
+    width: 100%;
+    max-width: 558px;
+    max-height: 665px;
+    flex-shrink: 0;
+    --minContent: 558;
+    --hSizing: FIXED;
+    --vSizing: FIXED;
+    --pConstraintHorizontal: MIN;
+    --pConstraintVertical: RIGHT;
+}
+
+.acuityscheduling-com-footer {
+	container: acuityscheduling-com-footer / inline-size;
+	position: absolute; top: 3685px; left: 0; right: 0; 
+	display: flex;
+	align-items: flex-start;
+	/* FIX: Зменшення gap для компактності */
+	gap: 60px; 
+	font-size: 16px;
+	font-family: 'Avenir Next';
+	background-color: #fff;
+	padding: 40px 40px 40px 40px; 
+	--minContent: 1400;
+	--hSizing: FILL;
+	--vSizing: HUG;
+	--pConstraintHorizontal: STRETCH;
+	--pConstraintVertical: MIN;
+}
+
+.acuityscheduling-com-div-frontsite2 {
+	container: acuityscheduling-com-div-frontsite2 / inline-size;
+	width: 168px;
+	display: flex;
+	flex-direction: column;
+	/* FIX: Зменшуємо gap, щоб логотип був ближче до кнопки мови */
+	gap: 50px; 
+	flex-shrink: 0;
+	color: #fff;
+	font-weight: 400;
+	line-height: 1.15;
+	--minContent: 168;
+	--hSizing: FIXED;
+	--vSizing: HUG;
+	--pConstraintHorizontal: MIN;
+	--pConstraintVertical: MIN;
+}
+
+.btn-div-frontsite-footer {
+	margin-right: 36px;
+	height: 44px;
+	display: flex;
+	justify-content: center;
+	gap: 9px;
+	flex-shrink: 0;
+	font-style: normal;
+	letter-spacing: 0px;
+	text-align: left;
+	background-color: #283849;
+	padding: 0 8px;
+	border: 1px solid #767676;
+	border-radius: 12px;
+	--minContent: 138;
+	--hSizing: FILL;
+	--vSizing: FIXED;
+	--pConstraintHorizontal: STRETCH;
+	--pConstraintVertical: MIN;
+}
+
+.btn-div-frontsite-footer-label {
+	margin-left: 1px; margin-top: 12px;
+	max-width: 82px;
+	max-height: 18px;
+	--minContent: 55;
+	--hSizing: HUG;
+	--vSizing: HUG;
+	--pConstraintHorizontal: MIN;
+	--pConstraintVertical: MIN;
+}
+
+.btn-div-frontsite-footer-icon {
+	margin: -1px 0;
+	width: 20px;
+	flex-shrink: 0;
+	align-self: stretch;
+	--minContent: 20;
+	--hSizing: FIXED;
+	--vSizing: FILL;
+	--pConstraintHorizontal: MIN;
+	--pConstraintVertical: STRETCH;
+}
+
+.acuityscheduling-com-link2 {
+	height: 35px;
+	flex-shrink: 0;
+	--minContent: 109;
+	--hSizing: FILL;
+	--vSizing: FIXED;
+	--pConstraintHorizontal: STRETCH;
+	--pConstraintVertical: MIN;
+}
+
+.acuityscheduling-com-div-frontsite3 {
+	/* FIX: Збільшення min-width для відображення колонок */
+	min-width: 600px; 
+    max-width: 1280px;
+	display: flex;
+	align-items: flex-start;
+	/* FIX: Змінюємо space-between на space-around для кращого візуального центрування */
+	justify-content: space-around; 
+	flex-grow: 1;
+	color: #0e0e0e;
+	--minContent: 488;
+	--hSizing: FILL;
+	--vSizing: HUG;
+	--pConstraintHorizontal: MIN;
+	--pConstraintVertical: MIN;
+}
+
+.acuityscheduling-com-div-frontsite4 {
+	/* FIX: Зменшуємо фіксовану ширину, щоб заощадити місце */
+	width: 160px; 
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 31px;
+	flex-shrink: 0;
+	--minContent: 176;
+	--hSizing: FIXED;
+	--vSizing: HUG;
+	--pConstraintHorizontal: MIN;
+	--pConstraintVertical: MIN;
+}
+
+.acuityscheduling-com-div-footer1 {
+	padding-right: 92px;
+}
+
+.list1 {
+	font-weight: 400;
+	line-height: normal;
+}
+
+.acuityscheduling-com-div-frontsite5 {
+	/* FIX: Зменшуємо фіксовану ширину */
+	width: 160px; 
+	height: 259px;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 31px;
+	flex-shrink: 0;
+	font-weight: 400;
+	line-height: normal;
+	--minContent: 176;
+	--hSizing: FIXED;
+	--vSizing: FIXED;
+	--pConstraintHorizontal: MIN;
+	--pConstraintVertical: MIN;
+}
+
+.acuityscheduling-com-div-footer2 {
+	width: 176px;
+	flex-grow: 1;
+	background-color: #fff;
+	--minContent: 176;
+	--hSizing: FIXED;
+	--vSizing: FILL;
+	--pConstraintHorizontal: MIN;
+	--pConstraintVertical: STRETCH;
+}
+
+.acuityscheduling-com-div-follow {
+	/* FIX: Збільшуємо ширину */
+	width: 100px; 
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 31px;
+	flex-shrink: 0;
+	--minContent: 76;
+	--hSizing: FIXED;
+	--vSizing: HUG;
+	--pConstraintHorizontal: MIN;
+	--pConstraintVertical: MIN;
+}
+
+.acuityscheduling-com-div-footer3 {
+	padding-left: 1px;
+	padding-right: 27px;
+}
+
+.acuityscheduling-com-list3 {
+	display: flex;
+	flex-direction: column;
+	gap: 14px;
+	align-self: stretch;
+	font-weight: 400;
+	line-height: normal;
+	padding-right: 3px;
+	--minContent: 76;
+	--hSizing: FILL;
+	--vSizing: HUG;
+	--pConstraintHorizontal: STRETCH;
+	--pConstraintVertical: MIN;
+}
+
+.acuityscheduling-com-div-stay {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 31px;
+	min-width: 100px; 
+	--hSizing: HUG;
+	--vSizing: HUG;
+	--pConstraintHorizontal: MIN;
+	--pConstraintVertical: MIN;
+}
+
+.acuityscheduling-com-btn-div-footer {
+	max-height: 26px;
+	display: flex;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 1.6;
+	letter-spacing: 0px;
+	text-align: left;
+	background-color: #fff;
+	padding-right: 5px;
+	--minContent: 100;
+	--hSizing: HUG;
+	--vSizing: HUG;
+	--pConstraintHorizontal: MIN;
+	--pConstraintVertical: MIN;
+}
+
+.acuityscheduling-com-text-list {
+	width: 100px;
+	font-weight: 400;
+	line-height: normal;
+	--minContent: 100;
+	--hSizing: FIXED;
+	--vSizing: HUG;
+	--pConstraintHorizontal: MIN;
+	--pConstraintVertical: MIN;
+}
+
+
+
+/** breakpoints (margin / paddings) **/
+
+@media screen and (max-width: 1280px) {
+	.acuityscheduling-com-div-hero1 {
+		padding-inline: 0;
+	}
+	.acuityscheduling-com-div-menu {
+		padding-inline: var(--margin-sm);
+		margin-inline: 0;
+	}
+	.acuityscheduling-com-div-hero7 {
+		margin-inline: 0;
+	}
+	.acuityscheduling-com-section1 {
+		padding-inline: var(--margin-md);
+	}
+	.acuityscheduling-com-group {
+		padding-inline: var(--margin-md);
+	}
+	.acuityscheduling-com-div-calendar1 {
+		padding-inline: 0;
+	}
+	.acuityscheduling-com-section2 {
+		padding-inline: var(--margin-md);
+	}
+	.acuityscheduling-com-div-adapt2 {
+		padding-inline: 0;
+	}
+	.acuityscheduling-com-div-site1 {
+		margin-inline: 0;
+	}
+	.div-example-site-load-igroup1 {
+		margin-inline: 0;
+	}
+	.div-example-site-load-igroup2 {
+		margin-inline: 0;
+	}
+	.acuityscheduling-com-section3 {
+		padding-inline: var(--margin-sm);
+	}
+	.acuityscheduling-com-div-container1 {
+		padding-inline: 0;
+	}
+	.acuityscheduling-com-div-container2 {
+		padding-inline: 0;
+	}
+	.acuityscheduling-com-list2 {
+		padding-inline: 0;
+	}
+	.acuityscheduling-com-logo-square {
+		margin-inline: var(--margin-md);
+	}
+	.acuityscheduling-com-div-support1 {
+		padding-inline: var(--margin-md);
+	}
+	.acuityscheduling-com-footer {
+		padding-inline: var(--margin-md);
+	}
+	.btn-div-frontsite-footer {
+		margin-inline: 0;
+	}
+}
+
+@media screen and (max-width: 576px) {
+	.acuityscheduling-com-section1 {
+		padding-inline: var(--margin-sm);
+	}
+	.acuityscheduling-com-group {
+		padding-inline: var(--margin-sm);
+	}
+	.acuityscheduling-com-section2 {
+		padding-inline: var(--margin-sm);
+	}
+	.acuityscheduling-com-logo-square {
+		margin-inline: var(--margin-sm);
+	}
+	.acuityscheduling-com-div-support1 {
+		padding-inline: var(--margin-sm);
+	}
+	.acuityscheduling-com-footer {
+		padding-inline: var(--margin-sm);
+	}
+}
+
+
+
+/* container queries (flex rows) */
+
+@container acuityscheduling-com-col-top (width < 1399px) {
+	.acuityscheduling-com-div-hero1 {
+		height: unset;
+		flex-direction: column;
+		align-items: center;
+		gap: 28px;
+	}
+	.acuityscheduling-com-div-hero1 > .acuityscheduling-com-div-hero2 {
+		width: 100%;
+	}
+	.acuityscheduling-com-div-hero1 > .acuityscheduling-com-div-hero3 {
+		width: 100%;
+	}
+	.acuityscheduling-com-div-hero1 > .acuityscheduling-com-div-hero4 {
+		width: 100%;
+	}
+	.acuityscheduling-com-div-hero1 > .acuityscheduling-com-div-hero5 {
+		width: 100%;
+	}
+	.acuityscheduling-com-div-hero1 > .acuityscheduling-com-div-hero6 {
+		width: 100%;
+	}
+}
+
+@container acuityscheduling-com-col-top (width < 622px) {
+	.acuityscheduling-com-div-menu {
+		flex-direction: column;
+		align-items: center;
+		gap: 13px;
+	}
+}
+
+@container acuityscheduling-com-div-menu (width < 379px) {
+	.acuityscheduling-com-list1 {
+		flex-direction: column;
+		align-items: center;
+		gap: 13px;
+	}
+	.acuityscheduling-com-list1 > * {
+		margin-left: unset !important; margin-right: unset !important; margin-top: unset !important;
+		text-align: center;
+	}
+}
+
+@container acuityscheduling-com-section1 (width < 764px) {
+	.card-div-feature1 {
+		height: unset;
+		flex-direction: column;
+		align-items: center;
+		gap: 52px;
+	}
+	.card-div-feature1 > .card-div-feature-area1 {
+		width: 100%;
+	}
+	.card-div-feature1 > .card-div-feature-area2 {
+		width: 100%;
+	}
+}
+
+@container acuityscheduling-com-section1 (width < 927px) {
+	.acuityscheduling-com-div-feature1 {
+		flex-direction: column;
+		align-items: stretch;
+		gap: 100px;
+	}
+	.acuityscheduling-com-div-feature1 > .card-div-feature2 {
+		width: 100%;
+	}
+	.acuityscheduling-com-div-feature1 > .card-div-feature3 {
+		width: 100%;
+	}
+}
+
+@container acuityscheduling-com-section1 (width < 764px) {
+	.card-div-feature4 {
+		height: unset;
+		flex-direction: column;
+		align-items: center;
+		gap: 52px;
+	}
+	.card-div-feature4 > .card-div-feature-area5 {
+		width: 100%;
+	}
+	.card-div-feature4 > .card-div-feature-area6 {
+		width: 100%;
+	}
+}
+
+@container acuityscheduling-com-div-adapt1 (width < 1280px) {
+	.acuityscheduling-com-div-adapt2 {
+		flex-direction: column;
+		align-items: flex-start;
+		gap: 16px;
+	}
+	.acuityscheduling-com-div-adapt2 > * {
+		margin-top: unset !important;
+	}
+	.acuityscheduling-com-div-adapt2 > .acuityscheduling-com-text-div1 {
+		width: 100%;
+	}
+}
+
+@container acuityscheduling-com-div-adapt1 (width < 1240px) {
+	.acuityscheduling-com-div-site1 {
+		flex-direction: column;
+		align-items: center;
+		gap: 13px;
+	}
+	.acuityscheduling-com-div-site1 > * {
+		text-align: center;
+	}
+}
+
+@container acuityscheduling-com-section2 (width < 1279px) {
+	.acuityscheduling-com-div-example {
+		height: unset;
+		flex-direction: column;
+		align-items: flex-start;
+		gap: 20px;
+	}
+	.acuityscheduling-com-div-example > * {
+		margin-left: unset !important; margin-right: unset !important;
+	}
+	.acuityscheduling-com-div-example > .div-example-site1 {
+		width: 100%;
+	}
+	.acuityscheduling-com-div-example > .div-example-site2 {
+		width: 100%;
+	}
+	.acuityscheduling-com-div-example > .div-example-site3 {
+		width: 100%;
+	}
+	.acuityscheduling-com-div-example > .div-example-site4 {
+		width: 100%;
+	}
+}
+
+@container acuityscheduling-com-section3 (width < 754px) {
+	.acuityscheduling-com-div-container1 {
+		flex-direction: column;
+		align-items: center;
+		gap: 16px;
+	}
+	.acuityscheduling-com-div-container1 > * {
+		text-align: center;
+	}
+}
+
+@container acuityscheduling-com-div-container2 (width < 1142px) {
+	.acuityscheduling-com-row-top {
+		flex-direction: column;
+		align-items: stretch;
+		gap: 48px;
+	}
+	.acuityscheduling-com-row-top > * {
+		margin-left: unset !important; margin-right: unset !important;
+	}
+	.acuityscheduling-com-row-top > .acuityscheduling-com-div-feature2 {
+		width: 100%;
+	}
+	.acuityscheduling-com-row-top > .div-feature-item-margin1 {
+		width: 100%;
+	}
+	.acuityscheduling-com-row-top > .acuityscheduling-com-div-feature3 {
+		width: 100%;
+	}
+	.acuityscheduling-com-row-top > .acuityscheduling-com-div-feature4 {
+		width: 100%;
+	}
+}
+
+@container acuityscheduling-com-div-container2 (width < 1142px) {
+	.acuityscheduling-com-row-bottom {
+		flex-direction: column;
+		align-items: stretch;
+		gap: 48px;
+	}
+	.acuityscheduling-com-row-bottom > * {
+		margin-left: unset !important; margin-right: unset !important;
+	}
+	.acuityscheduling-com-row-bottom > .div-feature-item-margin2 {
+		width: 100%;
+	}
+	.acuityscheduling-com-row-bottom > .div-feature-item-margin3 {
+		width: 100%;
+	}
+	.acuityscheduling-com-row-bottom > .div-feature-item-margin4 {
+		width: 100%;
+	}
+	.acuityscheduling-com-row-bottom > .div-feature-item-margin5 {
+		width: 100%;
+	}
+}
+
+@container acuityscheduling-com-section5 (width < 1130px) {
+	.acuityscheduling-com-list2 {
+		height: unset;
+		flex-direction: column;
+		align-items: center;
+		gap: 20px;
+	}
+	.acuityscheduling-com-list2 > .acuityscheduling-com-item-margin1 {
+		width: 100%;
+	}
+	.acuityscheduling-com-list2 > .acuityscheduling-com-item-margin2 {
+		width: 100%;
+	}
+	.acuityscheduling-com-list2 > .item-margin1 {
+		width: 100%;
+	}
+	.acuityscheduling-com-list2 > .item-margin2 {
+		width: 100%;
+	}
+	.acuityscheduling-com-list2 > .item-margin3 {
+		width: 100%;
+	}
+}
+
+@container acuityscheduling-com-section6 (width < 1359px) {
+	.acuityscheduling-com-div-support1 {
+		flex-direction: column;
+		align-items: center;
+		gap: 100px;
+	}
+	.acuityscheduling-com-div-support1 > * {
+		margin-top: unset !important;
+	}
+}
+
+@container acuityscheduling-com-group (width < 1398px) {
+	.acuityscheduling-com-footer {
+		flex-direction: column;
+		align-items: stretch;
+		gap: 33px;
+	}
+	.acuityscheduling-com-footer > .acuityscheduling-com-div-frontsite2 {
+		align-self: center;
+	}
+}
+
+@container acuityscheduling-com-div-frontsite2 (width < 136px) {
+	.btn-div-frontsite-footer {
+		height: unset;
+		flex-direction: column;
+		align-items: center;
+		gap: 13px;
+	}
+	.btn-div-frontsite-footer > * {
+		margin-left: unset !important; margin-right: unset !important; margin-top: unset !important;
+	}
+}
